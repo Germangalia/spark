@@ -4,8 +4,13 @@
     "gulp": "^3.8.8"
   },
   "dependencies": {
+<<<<<<< HEAD
     "bootstrap-sass": "^3.0.0",
     "laravel-elixir": "^4.0.0",
     "laravel-spark": "^1.0.0"
+=======
+    "laravel-elixir": "^4.0.0",
+    "bootstrap-sass": "^3.0.0"
+>>>>>>> b904107ff4374abd519faf30d960c241bc2333a3
   }
 }

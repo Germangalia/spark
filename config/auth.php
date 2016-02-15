@@ -98,7 +98,11 @@ return [
     'passwords' => [
         'users' => [
             'provider' => 'users',
+<<<<<<< HEAD
             'email' => 'spark::emails.auth.password.email',
+=======
+            'email' => 'auth.emails.password',
+>>>>>>> b904107ff4374abd519faf30d960c241bc2333a3
             'table' => 'password_resets',
             'expire' => 60,
         ],

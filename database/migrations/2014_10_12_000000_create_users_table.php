@@ -18,6 +18,7 @@ class CreateUsersTable extends Migration
             $table->string('email')->unique();
             $table->string('password', 60);
             $table->rememberToken();
+<<<<<<< HEAD
 
             // Two-Factor Authentication Columns...
             $table->string('phone_country_code')->nullable();
@@ -33,6 +34,8 @@ class CreateUsersTable extends Migration
             $table->string('card_last_four', 4)->nullable();
             $table->text('extra_billing_info')->nullable();
 
+=======
+>>>>>>> b904107ff4374abd519faf30d960c241bc2333a3
             $table->timestamps();
         });
     }

@@ -4,6 +4,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
+<<<<<<< HEAD
     | Application Environment
     |--------------------------------------------------------------------------
     |
@@ -17,6 +18,8 @@ return [
 
     /*
     |--------------------------------------------------------------------------
+=======
+>>>>>>> b904107ff4374abd519faf30d960c241bc2333a3
     | Application Debug Mode
     |--------------------------------------------------------------------------
     |
@@ -155,13 +158,19 @@ return [
         App\Providers\AuthServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+<<<<<<< HEAD
         Laravel\Cashier\CashierServiceProvider::class,
+=======
+>>>>>>> b904107ff4374abd519faf30d960c241bc2333a3
 
         /**
          * Spark Service Providers...
          */
         Laravel\Spark\Providers\SparkServiceProvider::class,
+<<<<<<< HEAD
         App\Providers\SparkServiceProvider::class,
+=======
+>>>>>>> b904107ff4374abd519faf30d960c241bc2333a3
     ],
 
     /*
@@ -181,6 +190,10 @@ return [
         'Artisan'   => Illuminate\Support\Facades\Artisan::class,
         'Auth'      => Illuminate\Support\Facades\Auth::class,
         'Blade'     => Illuminate\Support\Facades\Blade::class,
+<<<<<<< HEAD
+=======
+        'Bus'       => Illuminate\Support\Facades\Bus::class,
+>>>>>>> b904107ff4374abd519faf30d960c241bc2333a3
         'Cache'     => Illuminate\Support\Facades\Cache::class,
         'Config'    => Illuminate\Support\Facades\Config::class,
         'Cookie'    => Illuminate\Support\Facades\Cookie::class,
@@ -189,7 +202,10 @@ return [
         'Eloquent'  => Illuminate\Database\Eloquent\Model::class,
         'Event'     => Illuminate\Support\Facades\Event::class,
         'File'      => Illuminate\Support\Facades\File::class,
+<<<<<<< HEAD
         'Gate'      => Illuminate\Support\Facades\Gate::class,
+=======
+>>>>>>> b904107ff4374abd519faf30d960c241bc2333a3
         'Hash'      => Illuminate\Support\Facades\Hash::class,
         'Input'     => Illuminate\Support\Facades\Input::class,
         'Inspiring' => Illuminate\Foundation\Inspiring::class,

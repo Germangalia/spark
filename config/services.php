@@ -34,9 +34,12 @@ return [
         'key'    => env('STRIPE_KEY'),
         'secret' => env('STRIPE_SECRET'),
     ],
+<<<<<<< HEAD
     
     'authy' => [
         'key'    => env('AUTHY_KEY'),
     ],
+=======
+>>>>>>> b904107ff4374abd519faf30d960c241bc2333a3
 
 ];
