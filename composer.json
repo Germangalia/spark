@@ -6,8 +6,12 @@
     "type": "project",
     "require": {
         "php": ">=5.5.9",
+<<<<<<< HEAD
         "laravel/framework": "5.2.*",
         "laravel/spark": "^0.2.3"
+=======
+        "laravel/framework": "5.2.*"
+>>>>>>> eaa9a1f6ab6f3a7a17bc869034b9584f5b39a8fb
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
